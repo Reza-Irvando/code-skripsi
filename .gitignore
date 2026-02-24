@@ -1,0 +1,19 @@
+# 1. Folder Data dan Model (Mencegah upload file berukuran raksasa)
+50000sampel/
+eksport-orto/
+hasil_prediksi_batch/
+hasil-ndvi-class/
+model_kombinasi/
+model_kombinasi_low/
+ndvi/
+
+# 2. Virtual Environment
+venv/
+
+# 3. File Log dan ZIP
+*.zip
+Laporan_*.txt
+
+# 4. Skrip lama/eksperimen yang tidak ingin diunggah
+predict_svm.py
+predict.ipynb

@@ -1,0 +1,8 @@
+--extra-index-url https://pypi.nvidia.com
+
+rasterio
+numpy
+scikit-learn
+joblib
+tqdm
+cuml-cu13
