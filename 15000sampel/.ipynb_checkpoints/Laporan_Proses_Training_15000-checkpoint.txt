@@ -1,0 +1,72 @@
+=================================================================
+  TAHAP 1: EKSTRAKSI SAMPEL CITRA (15,000 per kelas)
+=================================================================
+Mengekstrak Data: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:02<00:00,  2.11it/s]
+
+=================================================================
+  TAHAP 2: PELATIHAN 10 KOMBINASI MODEL (CUDA GPU)
+=================================================================
+
+[1/10] Melatih Model: 20230814, 20230828, 20230906
+   -> Total Piksel Latih: 135,000 piksel
+   -> Fitting SVM di GPU berjalan...
+   -> SUKSES! Tersimpan: model_svm_20230814_20230828_20230906.pkl (Waktu: 28.40 detik)
+   >> [ETA GLOBAL] Estimasi sisa waktu untuk 9 model berikutnya: 0 Jam, 4 Menit, 16 Detik <<
+
+[2/10] Melatih Model: 20230814, 20230828, 20230919
+   -> Total Piksel Latih: 135,000 piksel
+   -> Fitting SVM di GPU berjalan...
+   -> SUKSES! Tersimpan: model_svm_20230814_20230828_20230919.pkl (Waktu: 21.65 detik)
+   >> [ETA GLOBAL] Estimasi sisa waktu untuk 8 model berikutnya: 0 Jam, 3 Menit, 20 Detik <<
+
+[3/10] Melatih Model: 20230814, 20230828, 20231005
+   -> Total Piksel Latih: 135,000 piksel
+   -> Fitting SVM di GPU berjalan...
+   -> SUKSES! Tersimpan: model_svm_20230814_20230828_20231005.pkl (Waktu: 25.91 detik)
+   >> [ETA GLOBAL] Estimasi sisa waktu untuk 7 model berikutnya: 0 Jam, 2 Menit, 57 Detik <<
+
+[4/10] Melatih Model: 20230814, 20230906, 20230919
+   -> Total Piksel Latih: 135,000 piksel
+   -> Fitting SVM di GPU berjalan...
+   -> SUKSES! Tersimpan: model_svm_20230814_20230906_20230919.pkl (Waktu: 33.26 detik)
+   >> [ETA GLOBAL] Estimasi sisa waktu untuk 6 model berikutnya: 0 Jam, 2 Menit, 44 Detik <<
+
+[5/10] Melatih Model: 20230814, 20230906, 20231005
+   -> Total Piksel Latih: 135,000 piksel
+   -> Fitting SVM di GPU berjalan...
+   -> SUKSES! Tersimpan: model_svm_20230814_20230906_20231005.pkl (Waktu: 20.87 detik)
+   >> [ETA GLOBAL] Estimasi sisa waktu untuk 5 model berikutnya: 0 Jam, 2 Menit, 10 Detik <<
+
+[6/10] Melatih Model: 20230814, 20230919, 20231005
+   -> Total Piksel Latih: 135,000 piksel
+   -> Fitting SVM di GPU berjalan...
+   -> SUKSES! Tersimpan: model_svm_20230814_20230919_20231005.pkl (Waktu: 18.12 detik)
+   >> [ETA GLOBAL] Estimasi sisa waktu untuk 4 model berikutnya: 0 Jam, 1 Menit, 39 Detik <<
+
+[7/10] Melatih Model: 20230828, 20230906, 20230919
+   -> Total Piksel Latih: 135,000 piksel
+   -> Fitting SVM di GPU berjalan...
+   -> SUKSES! Tersimpan: model_svm_20230828_20230906_20230919.pkl (Waktu: 29.25 detik)
+   >> [ETA GLOBAL] Estimasi sisa waktu untuk 3 model berikutnya: 0 Jam, 1 Menit, 16 Detik <<
+
+[8/10] Melatih Model: 20230828, 20230906, 20231005
+   -> Total Piksel Latih: 135,000 piksel
+   -> Fitting SVM di GPU berjalan...
+   -> SUKSES! Tersimpan: model_svm_20230828_20230906_20231005.pkl (Waktu: 22.63 detik)
+   >> [ETA GLOBAL] Estimasi sisa waktu untuk 2 model berikutnya: 0 Jam, 0 Menit, 50 Detik <<
+
+[9/10] Melatih Model: 20230828, 20230919, 20231005
+   -> Total Piksel Latih: 135,000 piksel
+   -> Fitting SVM di GPU berjalan...
+   -> SUKSES! Tersimpan: model_svm_20230828_20230919_20231005.pkl (Waktu: 23.33 detik)
+   >> [ETA GLOBAL] Estimasi sisa waktu untuk 1 model berikutnya: 0 Jam, 0 Menit, 25 Detik <<
+
+[10/10] Melatih Model: 20230906, 20230919, 20231005
+   -> Total Piksel Latih: 135,000 piksel
+   -> Fitting SVM di GPU berjalan...
+   -> SUKSES! Tersimpan: model_svm_20230906_20230919_20231005.pkl (Waktu: 23.76 detik)
+
+=================================================================
+TAHAP 2 SELESAI! Seluruh 10 model berhasil dilatih.
+Waktu Keseluruhan Training: 0 jam, 4 menit, 7.17 detik.
+=================================================================

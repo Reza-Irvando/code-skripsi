@@ -21,7 +21,7 @@
    Waktu Prediksi Citra   : 134.49 detik
 
    --------------------------------------------------------------
-   TOTAL WAKTU MODEL [1/10] (Sesi Ini):  menit 15.90 detik
+   TOTAL WAKTU MODEL [1/10] (Sesi Ini):  7 menit 55.81 detik
    --------------------------------------------------------------
 
 
@@ -35,7 +35,7 @@
 
 -> Proses Citra Uji: 20231005
    Total Piksel Lahan Uji : 7,120,620 piksel
-   Waktu Prediksi Citra   :  detik
+   Waktu Prediksi Citra   :  104.57 detik
 
    --------------------------------------------------------------
    TOTAL WAKTU MODEL [2/10] (Sesi Ini): 3 menit 28.63 detik
