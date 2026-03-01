@@ -1,0 +1,182 @@
+=================================================================
+  TAHAP 0: VERIFIKASI DATASET & MODEL
+=================================================================
+ [V] STATUS AMAN: Seluruh file lengkap!
+
+=================================================================
+  TAHAP 1: PREDIKSI & GENERATE CITRA (CUDA ACCELERATED)
+=================================================================
+
+
+=================================================================
+ MENGEKSEKUSI MODEL [1/10] : 0814_0828_0906
+=================================================================
+
+-> Proses Citra Uji: 20230919
+   Total Piksel Lahan Uji : 7,927,195 piksel
+   Waktu Prediksi Citra   : 341.32 detik
+
+-> Proses Citra Uji: 20231005
+   Total Piksel Lahan Uji : 7,120,620 piksel
+   Waktu Prediksi Citra   : 134.49 detik
+
+   --------------------------------------------------------------
+   TOTAL WAKTU MODEL [1/10] (Sesi Ini):  menit 15.90 detik
+   --------------------------------------------------------------
+
+
+=================================================================
+ MENGEKSEKUSI MODEL [2/10] : 0814_0828_0919
+=================================================================
+
+-> Proses Citra Uji: 20230906
+   Total Piksel Lahan Uji : 7,146,846 piksel
+   Waktu Prediksi Citra   : 104.06 detik
+
+-> Proses Citra Uji: 20231005
+   Total Piksel Lahan Uji : 7,120,620 piksel
+   Waktu Prediksi Citra   :  detik
+
+   --------------------------------------------------------------
+   TOTAL WAKTU MODEL [2/10] (Sesi Ini): 3 menit 28.63 detik
+   --------------------------------------------------------------
+
+
+=================================================================
+ MENGEKSEKUSI MODEL [3/10] : 0814_0828_1005
+=================================================================
+
+-> Proses Citra Uji: 20230906
+   Total Piksel Lahan Uji : 7,146,846 piksel
+   Waktu Prediksi Citra   : 233.53 detik
+
+-> Proses Citra Uji: 20230919
+   Total Piksel Lahan Uji : 7,927,195 piksel
+   Waktu Prediksi Citra   : 257.64 detik
+
+   --------------------------------------------------------------
+   TOTAL WAKTU MODEL [3/10] (Sesi Ini): 8 menit 12.56 detik
+   --------------------------------------------------------------
+
+
+=================================================================
+ MENGEKSEKUSI MODEL [4/10] : 0814_0906_0919
+=================================================================
+
+-> Proses Citra Uji: 20230828
+   Total Piksel Lahan Uji : 6,962,826 piksel
+   Waktu Prediksi Citra   : 181.36 detik
+
+-> Proses Citra Uji: 20231005
+   Total Piksel Lahan Uji : 7,120,620 piksel
+   Waktu Prediksi Citra   : 185.85 detik
+
+   --------------------------------------------------------------
+   TOTAL WAKTU MODEL [4/10] (Sesi Ini): 6 menit 8.47 detik
+   --------------------------------------------------------------
+
+
+=================================================================
+ MENGEKSEKUSI MODEL [5/10] : 0814_0906_1005
+=================================================================
+
+-> Proses Citra Uji: 20230828
+   Total Piksel Lahan Uji : 6,962,826 piksel
+   Waktu Prediksi Citra   : 226.19 detik
+
+-> Proses Citra Uji: 20230919
+   Total Piksel Lahan Uji : 7,927,195 piksel
+   Waktu Prediksi Citra   : 258.11 detik
+
+   --------------------------------------------------------------
+   TOTAL WAKTU MODEL [5/10] (Sesi Ini): 8 menit 5.67 detik
+   --------------------------------------------------------------
+
+
+=================================================================
+ MENGEKSEKUSI MODEL [6/10] : 0814_0919_1005
+=================================================================
+
+-> Proses Citra Uji: 20230828
+   Total Piksel Lahan Uji : 6,962,826 piksel
+   Waktu Prediksi Citra   : 97.46 detik
+
+-> Proses Citra Uji: 20230906
+   Total Piksel Lahan Uji : 7,146,846 piksel
+   Waktu Prediksi Citra   : 96.19 detik
+
+   --------------------------------------------------------------
+   TOTAL WAKTU MODEL [6/10] (Sesi Ini): 3 menit 14.93 detik
+   --------------------------------------------------------------
+
+
+=================================================================
+ MENGEKSEKUSI MODEL [7/10] : 0828_0906_0919
+=================================================================
+
+-> Proses Citra Uji: 20230814
+   Total Piksel Lahan Uji : 9,138,180 piksel
+   Waktu Prediksi Citra   : 124.81 detik
+
+-> Proses Citra Uji: 20231005
+   Total Piksel Lahan Uji : 7,120,620 piksel
+   Waktu Prediksi Citra   : 98.20 detik
+
+   --------------------------------------------------------------
+   TOTAL WAKTU MODEL [7/10] (Sesi Ini): 3 menit 44.45 detik
+   --------------------------------------------------------------
+
+
+=================================================================
+ MENGEKSEKUSI MODEL [8/10] : 0828_0906_1005
+=================================================================
+
+-> Proses Citra Uji: 20230814
+   Total Piksel Lahan Uji : 9,138,180 piksel
+   Waktu Prediksi Citra   : 163.68 detik
+
+-> Proses Citra Uji: 20230919
+   Total Piksel Lahan Uji : 7,927,195 piksel
+   Waktu Prediksi Citra   : 140.05 detik
+
+   --------------------------------------------------------------
+   TOTAL WAKTU MODEL [8/10] (Sesi Ini): 5 menit 5.27 detik
+   --------------------------------------------------------------
+
+
+=================================================================
+ MENGEKSEKUSI MODEL [9/10] : 0828_0919_1005
+=================================================================
+
+-> Proses Citra Uji: 20230814
+   Total Piksel Lahan Uji : 9,138,180 piksel
+   Waktu Prediksi Citra   : 119.82 detik
+
+-> Proses Citra Uji: 20230906
+   Total Piksel Lahan Uji : 7,146,846 piksel
+   Waktu Prediksi Citra   : 92.71 detik
+
+   --------------------------------------------------------------
+   TOTAL WAKTU MODEL [9/10] (Sesi Ini): 3 menit 34.02 detik
+   --------------------------------------------------------------
+
+
+=================================================================
+ MENGEKSEKUSI MODEL [10/10] : 0906_0919_1005
+=================================================================
+
+-> Proses Citra Uji: 20230814
+   Total Piksel Lahan Uji : 9,138,180 piksel
+   Waktu Prediksi Citra   : 121.80 detik
+
+-> Proses Citra Uji: 20230828
+   Total Piksel Lahan Uji : 6,962,826 piksel
+   Waktu Prediksi Citra   : 92.59 detik
+
+   --------------------------------------------------------------
+   TOTAL WAKTU MODEL [10/10] (Sesi Ini): 3 menit 35.84 detik
+   --------------------------------------------------------------
+
+=================================================================
+TAHAP 1 SELESAI! Waktu Keseluruhan Sesi Ini: 0 jam, 47 menit, 25.73 detik.
+=================================================================

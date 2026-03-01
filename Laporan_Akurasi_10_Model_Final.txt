@@ -1,0 +1,241 @@
+=================================================================
+  TAHAP 2: EVALUASI AKURASI TOTAL (LEAVE-P-OUT CROSS VALIDATION)
+=================================================================
+
+
+=================================================================
+ EVALUASI MODEL [1/10] : 0814_0828_0906
+=================================================================
+   Total Piksel Dievaluasi: 15,047,815 piksel
+
+Confusion Matrix (Baris: Reference, Kolom: Prediction):
+             | Pred_1 | Pred_2 | Pred_3 || Row Sum
+--------------------------------------------------
+Ref_1 (Ren)  |  75510 |  60136 |  78553 ||  214199
+Ref_2 (Sed)  | 255600 | 5421491 | 1608609 || 7285700
+Ref_3 (Tig)  | 3092234 | 168482 | 4287200 || 7547916
+--------------------------------------------------
+Col Sum      | 3423344 | 5650109 | 5974362 || 15047815
+
+Producer's Accuracy (PA) & User's Accuracy (UA):
+ - Kelas 1 (Rendah) -> PA:  35.25%  |  UA:   2.21%
+ - Kelas 2 (Sedang) -> PA:  74.41%  |  UA:  95.95%
+ - Kelas 3 (Tinggi) -> PA:  56.80%  |  UA:  71.76%
+
+Overall Accuracy (OA) : 65.02%
+Kappa Coefficient     : 0.4320
+
+
+=================================================================
+ EVALUASI MODEL [2/10] : 0814_0828_0919
+=================================================================
+   Total Piksel Dievaluasi: 14,267,466 piksel
+
+Confusion Matrix (Baris: Reference, Kolom: Prediction):
+             | Pred_1 | Pred_2 | Pred_3 || Row Sum
+--------------------------------------------------
+Ref_1 (Ren)  | 383246 |  15894 | 198419 ||  597559
+Ref_2 (Sed)  | 237940 | 5729548 | 416374 || 6383862
+Ref_3 (Tig)  | 1157592 | 116405 | 6012048 || 7286045
+--------------------------------------------------
+Col Sum      | 1778778 | 5861847 | 6626841 || 14267466
+
+Producer's Accuracy (PA) & User's Accuracy (UA):
+ - Kelas 1 (Rendah) -> PA:  64.14%  |  UA:  21.55%
+ - Kelas 2 (Sedang) -> PA:  89.75%  |  UA:  97.74%
+ - Kelas 3 (Tinggi) -> PA:  82.51%  |  UA:  90.72%
+
+Overall Accuracy (OA) : 84.98%
+Kappa Coefficient     : 0.7383
+
+
+=================================================================
+ EVALUASI MODEL [3/10] : 0814_0828_1005
+=================================================================
+   Total Piksel Dievaluasi: 15,074,041 piksel
+
+Confusion Matrix (Baris: Reference, Kolom: Prediction):
+             | Pred_1 | Pred_2 | Pred_3 || Row Sum
+--------------------------------------------------
+Ref_1 (Ren)  |  46949 | 288201 | 264770 ||  599920
+Ref_2 (Sed)  | 142494 | 6402253 | 347993 || 6892740
+Ref_3 (Tig)  | 2979463 | 346194 | 4255724 || 7581381
+--------------------------------------------------
+Col Sum      | 3168906 | 7036648 | 4868487 || 15074041
+
+Producer's Accuracy (PA) & User's Accuracy (UA):
+ - Kelas 1 (Rendah) -> PA:   7.83%  |  UA:   1.48%
+ - Kelas 2 (Sedang) -> PA:  92.88%  |  UA:  90.98%
+ - Kelas 3 (Tinggi) -> PA:  56.13%  |  UA:  87.41%
+
+Overall Accuracy (OA) : 71.02%
+Kappa Coefficient     : 0.5293
+
+
+=================================================================
+ EVALUASI MODEL [4/10] : 0814_0906_0919
+=================================================================
+   Total Piksel Dievaluasi: 14,083,446 piksel
+
+Confusion Matrix (Baris: Reference, Kolom: Prediction):
+             | Pred_1 | Pred_2 | Pred_3 || Row Sum
+--------------------------------------------------
+Ref_1 (Ren)  | 247047 |  28020 | 177283 ||  452350
+Ref_2 (Sed)  | 273260 | 5959373 | 339264 || 6571897
+Ref_3 (Tig)  | 536985 |  68379 | 6453835 || 7059199
+--------------------------------------------------
+Col Sum      | 1057292 | 6055772 | 6970382 || 14083446
+
+Producer's Accuracy (PA) & User's Accuracy (UA):
+ - Kelas 1 (Rendah) -> PA:  54.61%  |  UA:  23.37%
+ - Kelas 2 (Sedang) -> PA:  90.68%  |  UA:  98.41%
+ - Kelas 3 (Tinggi) -> PA:  91.42%  |  UA:  92.59%
+
+Overall Accuracy (OA) : 89.89%
+Kappa Coefficient     : 0.8159
+
+
+=================================================================
+ EVALUASI MODEL [5/10] : 0814_0906_1005
+=================================================================
+   Total Piksel Dievaluasi: 14,890,021 piksel
+
+Confusion Matrix (Baris: Reference, Kolom: Prediction):
+             | Pred_1 | Pred_2 | Pred_3 || Row Sum
+--------------------------------------------------
+Ref_1 (Ren)  |  49838 | 125227 | 279646 ||  454711
+Ref_2 (Sed)  | 142371 | 6601517 | 336887 || 7080775
+Ref_3 (Tig)  | 1864663 | 254346 | 5235526 || 7354535
+--------------------------------------------------
+Col Sum      | 2056872 | 6981090 | 5852059 || 14890021
+
+Producer's Accuracy (PA) & User's Accuracy (UA):
+ - Kelas 1 (Rendah) -> PA:  10.96%  |  UA:   2.42%
+ - Kelas 2 (Sedang) -> PA:  93.23%  |  UA:  94.56%
+ - Kelas 3 (Tinggi) -> PA:  71.19%  |  UA:  89.46%
+
+Overall Accuracy (OA) : 79.83%
+Kappa Coefficient     : 0.6515
+
+
+=================================================================
+ EVALUASI MODEL [6/10] : 0814_0919_1005
+=================================================================
+   Total Piksel Dievaluasi: 14,109,672 piksel
+
+Confusion Matrix (Baris: Reference, Kolom: Prediction):
+             | Pred_1 | Pred_2 | Pred_3 || Row Sum
+--------------------------------------------------
+Ref_1 (Ren)  | 412737 |  72075 | 353259 ||  838071
+Ref_2 (Sed)  | 165330 | 5922275 |  91332 || 6178937
+Ref_3 (Tig)  | 588818 | 122793 | 6381053 || 7092664
+--------------------------------------------------
+Col Sum      | 1166885 | 6117143 | 6825644 || 14109672
+
+Producer's Accuracy (PA) & User's Accuracy (UA):
+ - Kelas 1 (Rendah) -> PA:  49.25%  |  UA:  35.37%
+ - Kelas 2 (Sedang) -> PA:  95.85%  |  UA:  96.81%
+ - Kelas 3 (Tinggi) -> PA:  89.97%  |  UA:  93.49%
+
+Overall Accuracy (OA) : 90.12%
+Kappa Coefficient     : 0.8243
+
+
+=================================================================
+ EVALUASI MODEL [7/10] : 0828_0906_0919
+=================================================================
+   Total Piksel Dievaluasi: 16,258,800 piksel
+
+Confusion Matrix (Baris: Reference, Kolom: Prediction):
+             | Pred_1 | Pred_2 | Pred_3 || Row Sum
+--------------------------------------------------
+Ref_1 (Ren)  | 246162 |  30504 | 394768 ||  671434
+Ref_2 (Sed)  | 102229 | 5751349 | 895239 || 6748817
+Ref_3 (Tig)  | 1301426 |  97377 | 7439746 || 8838549
+--------------------------------------------------
+Col Sum      | 1649817 | 5879230 | 8729753 || 16258800
+
+Producer's Accuracy (PA) & User's Accuracy (UA):
+ - Kelas 1 (Rendah) -> PA:  36.66%  |  UA:  14.92%
+ - Kelas 2 (Sedang) -> PA:  85.22%  |  UA:  97.82%
+ - Kelas 3 (Tinggi) -> PA:  84.17%  |  UA:  85.22%
+
+Overall Accuracy (OA) : 82.65%
+Kappa Coefficient     : 0.6867
+
+
+=================================================================
+ EVALUASI MODEL [8/10] : 0828_0906_1005
+=================================================================
+   Total Piksel Dievaluasi: 17,065,375 piksel
+
+Confusion Matrix (Baris: Reference, Kolom: Prediction):
+             | Pred_1 | Pred_2 | Pred_3 || Row Sum
+--------------------------------------------------
+Ref_1 (Ren)  |  45270 | 191577 | 436948 ||  673795
+Ref_2 (Sed)  | 442560 | 5858453 | 956682 || 7257695
+Ref_3 (Tig)  | 2892412 | 157283 | 6084190 || 9133885
+--------------------------------------------------
+Col Sum      | 3380242 | 6207313 | 7477820 || 17065375
+
+Producer's Accuracy (PA) & User's Accuracy (UA):
+ - Kelas 1 (Rendah) -> PA:   6.72%  |  UA:   1.34%
+ - Kelas 2 (Sedang) -> PA:  80.72%  |  UA:  94.38%
+ - Kelas 3 (Tinggi) -> PA:  66.61%  |  UA:  81.36%
+
+Overall Accuracy (OA) : 70.25%
+Kappa Coefficient     : 0.5065
+
+
+=================================================================
+ EVALUASI MODEL [9/10] : 0828_0919_1005
+=================================================================
+   Total Piksel Dievaluasi: 16,285,026 piksel
+
+Confusion Matrix (Baris: Reference, Kolom: Prediction):
+             | Pred_1 | Pred_2 | Pred_3 || Row Sum
+--------------------------------------------------
+Ref_1 (Ren)  | 280959 | 137770 | 638426 || 1057155
+Ref_2 (Sed)  | 225963 | 5806232 | 323662 || 6355857
+Ref_3 (Tig)  | 1328851 | 114546 | 7428617 || 8872014
+--------------------------------------------------
+Col Sum      | 1835773 | 6058548 | 8390705 || 16285026
+
+Producer's Accuracy (PA) & User's Accuracy (UA):
+ - Kelas 1 (Rendah) -> PA:  26.58%  |  UA:  15.30%
+ - Kelas 2 (Sedang) -> PA:  91.35%  |  UA:  95.84%
+ - Kelas 3 (Tinggi) -> PA:  83.73%  |  UA:  88.53%
+
+Overall Accuracy (OA) : 83.00%
+Kappa Coefficient     : 0.7000
+
+
+=================================================================
+ EVALUASI MODEL [10/10] : 0906_0919_1005
+=================================================================
+   Total Piksel Dievaluasi: 16,101,006 piksel
+
+Confusion Matrix (Baris: Reference, Kolom: Prediction):
+             | Pred_1 | Pred_2 | Pred_3 || Row Sum
+--------------------------------------------------
+Ref_1 (Ren)  | 415439 | 108761 | 387746 ||  911946
+Ref_2 (Sed)  | 270564 | 5978423 | 294905 || 6543892
+Ref_3 (Tig)  | 717699 | 191264 | 7736205 || 8645168
+--------------------------------------------------
+Col Sum      | 1403702 | 6278448 | 8418856 || 16101006
+
+Producer's Accuracy (PA) & User's Accuracy (UA):
+ - Kelas 1 (Rendah) -> PA:  45.56%  |  UA:  29.60%
+ - Kelas 2 (Sedang) -> PA:  91.36%  |  UA:  95.22%
+ - Kelas 3 (Tinggi) -> PA:  89.49%  |  UA:  91.89%
+
+Overall Accuracy (OA) : 87.76%
+Kappa Coefficient     : 0.7798
+
+
+#################################################################
+ RANGKUMAN KESELURUHAN (GRAND AVERAGE DARI 10 KOMBINASI MODEL)
+#################################################################
+Rata-rata Overall Accuracy : 80.45%
+Rata-rata Kappa Coefficient: 0.6664
+#################################################################
