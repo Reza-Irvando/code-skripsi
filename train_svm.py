@@ -19,7 +19,7 @@ SEMUA_TANGGAL = ["20230814", "20230828", "20230906", "20230919", "20231005"]
 
 # BATASAN SAMPEL DITINGKATKAN MENJADI 100.000 PER KELAS
 # Total per citra = 150.000 piksel. Total per model (3 citra) = 450.000 piksel latih.
-SAMPEL_PER_KELAS = 15000  
+SAMPEL_PER_KELAS = 50000  
 
 if not os.path.exists(DIR_MODEL):
     os.makedirs(DIR_MODEL)

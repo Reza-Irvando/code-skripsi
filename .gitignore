@@ -5,9 +5,11 @@ hasil-ndvi-class/
 model_kombinasi/
 model_kombinasi_low/
 ndvi/
+tmpry/
 
 # 2. Virtual Environment
 venv/
+.venv/
 
 # 3. File Log dan ZIP
 *.zip
